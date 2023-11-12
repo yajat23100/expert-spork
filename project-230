@@ -1,0 +1,5 @@
+from pandas as pd
+dataset = pd.read_csv(r'country_vaccinations.csv')
+print("shape of given dataset:", dataset.shape)
+print("shape of given columns:", dataset.columns)
+print("name of parameter used:", dataset.columns)
